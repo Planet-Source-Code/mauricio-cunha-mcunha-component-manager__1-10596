@@ -1,0 +1,49 @@
+[OPTIONS]
+ERRORLOG=D:\apl\mcmngctl\mcmngctl.ERR
+ROOT=D:\APL\MCMNGCTL
+COMPRESS=OFF
+CONTENTS = Hlp_MCunha_x                                                    
+COPYRIGHT=Developed by Mauricio Cunha (mcnha98@zaz.com.br)
+REPORT=ON
+TITLE=Windows Help
+WARNING=1
+
+[WINDOWS]
+main="Windows Help", ( 116 , 100 , 725 , 663  ), 0 ,,(r 14876671 )
+HlpWnd02="Window 2", ( 511 , 0 , 511 , 1000  ), 0 ,,(r 14876671 ),f1
+HlpWnd03="Window 3", ( 255 , 511 , 511 , 511  ), 0 ,(r 14876671 ),(r 14876671 )
+HlpWnd04="Window 4", ( 255 , 511 , 511 , 511  ), 0 ,(r 14876671 ),(r 14876671 )
+HlpWnd05="Window 5", ( 255 , 511 , 511 , 511  ), 0 ,(r 14876671 ),(r 14876671 )
+HlpWnd06="Window 6", ( 255 , 511 , 511 , 511  ), 0 ,(r 14876671 ),(r 14876671 )
+
+[CONFIG]
+RR("mmsystem","sndPlaySound","Su")
+CreateButton("btn_glossary", "&Glossary", "JI(`',`GLOSSARY')")
+
+[BAGGAGE]
+
+
+[BITMAPS]
+C:\ARQUIVOS DE PROGRAMAS\HELPWRIT\HELPWRITER32\GLOSSARY.SHG
+D:\apl\mcmngctl\hlp001.bmp
+D:\apl\mcmngctl\hlp002.bmp
+D:\apl\mcmngctl\hlp003.bmp
+D:\apl\mcmngctl\hlp004.bmp
+D:\apl\mcmngctl\hlp005.bmp
+
+[MAP]
+Hlp_MCunha_x  10
+Hlp_MCunha_x1  210
+Hlp_MCunha_x2  220
+Hlp_MCunha_x3  230
+GLOS_Load_list  240
+GLOS_Clear_list  250
+GLOS_Save_list  260
+GLOS_Registry_component  270
+GLOS_Unregistry_component  280
+GLOS_Delete_file  290
+GLOS_Properties  300
+GLOSSARY 64000
+
+[FILES]
+D:\apl\mcmngctl\mcmngctl.p01
