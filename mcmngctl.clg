@@ -1,0 +1,18 @@
+[FrmMenu]
+FORMCONTEXTID= 10
+SBar= 210
+Lista= 220
+TBar= 230
+MnuArq= 240
+MnuAjuda= 250
+MnuCarregar= 0
+MnuLimpar= 0
+MnuSalvar= 0
+MnuRegistar= 0
+MnuDesregistrar= 0
+MnuExcluir= 0
+MnuPropriedades= 0
+MnuSair= 0
+MnuAjudaTopicos= 0
+MnuAjudaProcura= 0
+MnuAjudaSobre= 0
